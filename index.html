@@ -1,0 +1,352 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Materialize Website</title>
+  </head>
+  <body>
+    <!--navbar and "jumbotron"-->
+    <header>
+      <nav class="nav-wrapper">
+        <div class="container">
+          <a href="#" class="brand-logo center">
+            Logo
+          </a>
+
+          <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#offer">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+
+          <ul class="left hide-on-med-and-down">
+            <li>
+              <a
+                href="https://github.com/algren123"
+                class="tooltipped btn-floating btn-small pink"
+                data-tooltip="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/algren-pauna/"
+                class="tooltipped btn-floating btn-small pink"
+                data-tooltip="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.artstation.com/algrenpauna"
+                class="tooltipped btn-floating btn-small pink"
+                data-tooltip="Artstation"
+              >
+                <i class="fab fa-artstation"></i>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="sidenav" id="mobile-menu">
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#offer">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="jumbotron-title col s12 l4">
+          <h1 class="white-text center col s12 l4">One Page Wonder</h1>
+          <h2 class="white-text center">Will Rock Your Socks Off</h2>
+        </div>
+
+        <div class="jumbotron-button center">
+          <button type="button" class="btn-large btn-floating pink pulse">
+            <i class="material-icons">arrow_downward</i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!--photo grid-->
+    <section class="container section scrollspy" id="photos">
+      <div class="row valign-wrapper">
+        <div class="col s12 l4">
+          <img
+            src="https://images.pexels.com/photos/674723/pexels-photo-674723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            class="responsive-img circle materialboxed"
+            alt=""
+          />
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <h2 class="black-text text-darken-4">For those about to rock...</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aliquid
+            eaque, possimus quod magni ab officia sint. Consectetur, officiis
+            magni.
+          </p>
+        </div>
+      </div>
+
+      <div class="row valign-wrapper">
+        <div class="col s12 l4 push-l7 offset-l1">
+          <img
+            src="https://images.pexels.com/photos/2247677/pexels-photo-2247677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            class="responsive-img circle materialboxed"
+            alt=""
+          />
+        </div>
+        <div class="col s12 l6 pull-l5 right-align offset-l1">
+          <h2 class="black-text text-darken-4">We salute you!</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Repellendus sapiente at distinctio, reiciendis, quo similique enim
+            impedit beatae fuga nisi, dicta aperiam cum quaerat nobis vel dolor
+            ipsa provident fugit harum ab. Distinctio, ratione quae.
+          </p>
+        </div>
+      </div>
+
+      <div class="row valign-wrapper">
+        <div class="col s12 l4">
+          <img
+            src="https://images.pexels.com/photos/2649113/pexels-photo-2649113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            class="responsive-img circle materialboxed"
+            alt=""
+          />
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <h2 class="black-text text-darken-4">Let there be rock!</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            blanditiis quidem beatae veniam. Amet voluptatum rem, nobis
+            voluptatibus corrupti fugit perspiciatis quis temporibus praesentium
+            cum ullam molestias unde doloribus veritatis facere animi voluptates
+            illum minima.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--parallax 1-->
+    <div class="parallax-container">
+      <div class="parallax">
+        <img
+          src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="responsive-image"
+        />
+      </div>
+    </div>
+
+    <!--Services-->
+    <section class="container section scrollspy" id="offer">
+      <div class="row">
+        <div class="col s12 l4">
+          <h2 class="black-text text-darken-4">What we offer...</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga,
+            maiores ut. Laborum error tenetur tempora eum quisquam. Adipisci
+            tenetur earum hic excepturi similique saepe? Aut dolorum eum
+            molestias molestiae repellendus possimus hic corrupti, perspiciatis
+            doloremque?
+          </p>
+        </div>
+
+        <div class="col s12 l6 offset-l2">
+          <ul class="tabs">
+            <li class="tab col s6">
+              <a class="purple-text" href="#services">Services</a>
+            </li>
+            <li class="tab col s6">
+              <a class="purple-text" href="#locations">Locations</a>
+            </li>
+          </ul>
+
+          <div class="col s12" id="services">
+            <p class="flow-text purple-text">SERVICES</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+              blanditiis veritatis rem, architecto ipsum ea sequi pariatur ut
+              explicabo incidunt.
+            </p>
+          </div>
+          <div class="col s12" id="locations">
+            <p class="flow-text purple-text">LOCATIONS</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur officiis ratione corrupti odit veniam incidunt
+              molestiae sequi. Autem maxime quae exercitationem, ut magni
+              inventore eligendi, officiis sunt ipsam, architecto omnis
+              accusantium qui. Quaerat ipsum quis a voluptas ex at iste?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--parallax-->
+    <div class="parallax-container">
+      <div class="parallax">
+        <img
+          src="https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="responsive-image"
+        />
+      </div>
+    </div>
+
+    <!--contact form-->
+
+    <section class="container section scrollspy" id="contact">
+      <div class="row">
+        <div class="col s12 l5">
+          <h2>Get in touch!</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            harum pariatur fugit nostrum, cupiditate eveniet temporibus dolorem
+            eius asperiores veniam dolore nisi. Aliquam fugiat mollitia
+            repellendus molestias est alias optio culpa animi, numquam libero
+            dignissimos soluta? Incidunt aut omnis, voluptatibus sequi
+            laudantium inventore animi corporis aliquam vel reprehenderit qui
+            magnam numquam repellat excepturi aspernatur officia nisi odio
+            facere aperiam iusto?
+          </p>
+        </div>
+        <div class="col s12 l5 offset-l2">
+          <form action="">
+            <div class="input-field">
+              <i class="material-icons prefix">email</i>
+              <input type="email" id="email" />
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">message</i>
+              <textarea
+                id="message"
+                class="materialize-textarea"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <label for="message">Your message</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">date_range</i>
+              <input type="text" id="date" class="datepicker" />
+              <label for="date">Choose a date for appointment</label>
+            </div>
+            <div class="input-field">
+              <p>What services do you need?</p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Consulting</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Location</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Bands</span>
+                </label>
+              </p>
+            </div>
+
+            <div class="input-field center">
+              <a class="btn red lighten-1">Submit</a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="map" id="map"></div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="page-footer grey darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l6">
+            <h5>About us</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+              enim, a unde facilis quaerat provident aut labore saepe dolor
+              officiis cupiditate ipsa totam velit nemo!
+            </p>
+          </div>
+          <div class="col s12 l4 offset-l2">
+            <h5>Connect</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#">Instagram</a>
+              </li>
+              <li><a class="grey-text text-lighten-3" href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright grey darken-4">
+        <div class="container center-align">&copy; 2020 Created by <a href="https://www.linkedin.com/in/victor-adegoke123">Victor Adegoke</a></div>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7WQpliaBa9uZAjZVU45PnVlTGCyNFEMI&callback=initMap"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c8ead8408d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $("button").click(function () {
+        $("html,body").animate(
+          {
+            scrollTop: $("#photos").offset().top,
+          },
+          "slow"
+        );
+      });
+
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+        $(".materialboxed").materialbox();
+        $(".parallax").parallax();
+        $(".tabs").tabs();
+        $(".datepicker").datepicker({
+          disableWeekends: true,
+        });
+        $(".tooltipped").tooltip();
+        $(".scrollspy").scrollSpy();
+      });
+    </script>
+  </body>
+</html>

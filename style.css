@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(https://images.pexels.com/photos/2471235/pexels-photo-2471235.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-position: center;
+  min-height: 700px;
+}
+
+@media screen and (max-width: 670px) {
+  header {
+    min-height: 500px;
+  }
+}
+
+.nav-wrapper {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.jumbotron-title {
+  text-align: center;
+  padding-top: 6vw;
+}
+
+.jumbotron-title h1 {
+  font-size: 6rem;
+  font-weight: bolder;
+}
+
+.jumbotron-title h2 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.jumbotron-button {
+  text-align: center;
+  vertical-align: center;
+}
+
+.jumbotron-button button {
+  margin: 68px;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.section {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
+.row {
+  vertical-align: center;
+}
+
+.row h2 {
+  font-weight: bolder;
+}
+
+.tabs .indicator {
+  background-color: #9c27b0;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background: transparent;
+}
+
+.sidenav-overlay {
+  background-color: transparent;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
